@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-lab-three-webpart-client-side-solution",
+    "id": "b02b8103-0eb8-4fc8-b3fd-8e1101b9951c",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/my-lab-three-webpart.sppkg"
+  }
+}

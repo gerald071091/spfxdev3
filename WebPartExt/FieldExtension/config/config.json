@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "customizer-extension-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/customizerExtension/CustomizerExtensionFieldCustomizer.js",
+          "manifest": "./src/extensions/customizerExtension/CustomizerExtensionFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomizerExtensionFieldCustomizerStrings": "lib/extensions/customizerExtension/loc/{locale}.js"
+  }
+}

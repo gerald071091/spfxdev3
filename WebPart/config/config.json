@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-lab-three-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myLabThree/MyLabThreeWebPart.js",
+          "manifest": "./src/webparts/myLabThree/MyLabThreeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyLabThreeWebPartStrings": "lib/webparts/myLabThree/loc/{locale}.js"
+  }
+}

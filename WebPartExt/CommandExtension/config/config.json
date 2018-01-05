@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "command-extension-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/commandExtension/CommandExtensionCommandSet.js",
+          "manifest": "./src/extensions/commandExtension/CommandExtensionCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CommandExtensionCommandSetStrings": "lib/extensions/commandExtension/loc/{locale}.js"
+  }
+}
